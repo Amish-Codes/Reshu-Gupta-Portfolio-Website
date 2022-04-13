@@ -16,3 +16,10 @@ function clickImage() {
     }
     count++;
 }
+
+let vcount = 625;
+function incCount() {
+    vcount++;
+    var c = document.getElementsByClassName("count");
+    c[0].innerHTML = vcount;
+}
