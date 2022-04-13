@@ -167,11 +167,11 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("./images/300.gif") no-repeat center;
+    background: url("./images/300.gif") repeat;
     height: 100vh;
     color: #fff;
     min-height: 500px;
-    background-size: cover;
+    /* background-size: cover; */
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
