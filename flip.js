@@ -17,7 +17,7 @@ function clickImage() {
     count++;
 }
 
-let vcount = 1054;
+let vcount = 75924382;
 function incCount() {
     vcount++;
     var c = document.getElementsByClassName("count");
